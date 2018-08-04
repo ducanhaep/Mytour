@@ -1,0 +1,241 @@
+#top-blogger .carousel-inner, #thuong-hieu-tai-tro .carousel-inner {
+  width: 97%;
+  margin: 0 auto; }
+
+#ban-can-biet .card-body h4, #review-moi .card-body h5 {
+  font-family: 'Open Sans', sans-serif; }
+
+#ban-can-biet .card-body hr, #review-moi .card-body hr {
+  border-bottom: 1px solid #ff6c6f;
+  margin-top: 5px;
+  margin-bottom: 15px; }
+
+#ban-can-biet .card-body .card-text, #review-moi .card-body .card-text {
+  font-size: 14px; }
+
+#ban-can-biet .card-body .date, #review-moi .card-body .date {
+  font-size: 12px; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+/* --------------- begin global css --------------- */
+ul {
+  padding: 0;
+  margin: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+.carousel-control-prev {
+  left: -75px; }
+
+.carousel-control-next {
+  right: -75px; }
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2390a4ae' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); }
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2390a4ae' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
+
+.logo-and-title h5 {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #30373b;
+  font-weight: bold; }
+
+.card {
+  border: 0;
+  border-radius: 0;
+  background-color: transparent; }
+
+.card-body h4, .card-body h5, .card-body hr, .card-body p {
+  margin: 0; }
+
+.card-body::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  bottom: 100%;
+  left: 13%;
+  transform: rotate(45deg);
+  margin-bottom: -10px;
+  background-color: #ffffff; }
+
+.card-body .date span {
+  color: #ff999b;
+  padding-right: 8px; }
+
+/* --------------- end global css --------------- */
+/* --------------- begin header --------------- */
+header {
+  background-color: white;
+  height: 100px; }
+  header .navbar {
+    padding-top: 0;
+    padding-bottom: 4px; }
+    header .navbar .navbar-nav .nav-item {
+      padding-right: 30px; }
+    header .navbar .navbar-nav .hamburger {
+      padding-right: 0; }
+    header .navbar .navbar-nav .nav-link {
+      font-style: italic;
+      font-size: 14px; }
+    header .navbar .navbar-nav .login {
+      font-style: normal; }
+    header .navbar .navbar-brand {
+      padding-top: 0; }
+  header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0; }
+
+/* --------------- end header --------------- */
+/* --------------- begin fashion trend section --------------- */
+#fashion-trend {
+  background-image: url("../images/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 560px;
+  border-top: 1px solid #959595; }
+  #fashion-trend .carousel-item p {
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff; }
+  #fashion-trend .carousel-item .btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    background-color: transparent; }
+
+/* --------------- end fashion trend section --------------- */
+/* --------------- begin top blogger section --------------- */
+#top-blogger {
+  background-color: #edecec;
+  height: 465px; }
+  #top-blogger .logo-and-title {
+    margin-top: 70px;
+    margin-bottom: 55px; }
+    #top-blogger .logo-and-title img {
+      padding-bottom: 20px; }
+  #top-blogger .carousel-control-prev {
+    top: -35px; }
+  #top-blogger .carousel-control-next {
+    top: -35px; }
+
+/* --------------- end top blogger section --------------- */
+/* --------------- begin ban can biet section --------------- */
+#ban-can-biet {
+  background-color: #e5e5e5;
+  height: 795px; }
+  #ban-can-biet .logo-and-title {
+    margin-top: 50px;
+    margin-bottom: 40px; }
+    #ban-can-biet .logo-and-title img {
+      padding-bottom: 15px; }
+  #ban-can-biet .card-body {
+    height: 185px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 22px; }
+    #ban-can-biet .card-body hr {
+      width: 90%; }
+    #ban-can-biet .card-body .date {
+      right: 22px;
+      bottom: 7px; }
+
+/* --------------- end ban can biet section --------------- */
+/* --------------- begin review moi section --------------- */
+#review-moi {
+  background-color: #edecec;
+  height: 1495px; }
+  #review-moi .logo-and-title {
+    margin-top: 30px;
+    margin-bottom: 40px; }
+    #review-moi .logo-and-title img {
+      padding-bottom: 25px; }
+  #review-moi .card-body {
+    height: 240px;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px; }
+    #review-moi .card-body .sub-title {
+      font-size: 12px;
+      color: #000000;
+      text-transform: uppercase;
+      word-spacing: 4px; }
+      #review-moi .card-body .sub-title span {
+        color: #8d8d8d; }
+    #review-moi .card-body .date {
+      right: 18px;
+      bottom: 10px; }
+  #review-moi .second-row {
+    padding-top: 28px;
+    padding-bottom: 40px; }
+  #review-moi .xem-them a {
+    color: #30373b;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+/* --------------- end review moi section --------------- */
+/* --------------- begin connection us section --------------- */
+#connection-us {
+  background-color: #e5e5e5;
+  height: 275px; }
+  #connection-us .logo-and-title {
+    margin-top: 45px;
+    margin-bottom: 60px; }
+    #connection-us .logo-and-title img {
+      padding-bottom: 20px; }
+
+/* --------------- end connection us section --------------- */
+/* --------------- begin thuong hieu tai tro section --------------- */
+#thuong-hieu-tai-tro {
+  background-color: #edecec;
+  height: 310px; }
+  #thuong-hieu-tai-tro .logo-and-title {
+    margin-top: 70px;
+    margin-bottom: 75px; }
+    #thuong-hieu-tai-tro .logo-and-title img {
+      padding-bottom: 22px; }
+
+/* --------------- end thuong hieu tai tro section --------------- */
+/* --------------- begin footer --------------- */
+footer {
+  background-color: #e5e5e5;
+  height: 265px; }
+  footer .footer-menu {
+    padding-top: 50px; }
+    footer .footer-menu a {
+      font-size: 14px;
+      color: #010101;
+      text-transform: capitalize; }
+  footer .reduce-space {
+    max-width: 12%; }
+  footer .copy-right hr {
+    border-bottom: 1px solid #d0d0d0;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  footer .copy-right p {
+    font-size: 12px; }
+
+/* --------------- end footer --------------- */
+
+/*# sourceMappingURL=style.css.map */
